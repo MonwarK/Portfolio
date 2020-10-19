@@ -21,7 +21,7 @@ nav h1{
 }
 
 main{
-    background-color: #fff;
+    background-color: #e0ece4;
     min-height: 1000px;
 }
 
@@ -39,14 +39,16 @@ section{
 }
 
 #introduction img{
-    width: 200px;
+    width: 45%;
+    margin: 0 auto;
 }
 
 #introduction{
-    background-color: #e8ffff;
+    background-color: #a3d8f4;
     text-align: center;
-    position: relative;
-    padding-bottom: 0;
+    position: relative; 
+    padding-top: 50px; 
+    padding-bottom: 0;  
 }
 
 hr{
@@ -91,20 +93,20 @@ h1{
 }
 
 #skills{
-    background-color: #41aea9;
+    background-color: #ff4b5c;
 }
 
 #skills .frontend, #skills .backend, #skills .framework{
-    background-color: #4cc4be;
+    background-color: #ffffff;
     border-radius: 20px;
     min-width: 600px;
     width: 70%;
     text-align: left;
     padding: 50px 20px;
     margin: 20px auto;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(63,168,163,1);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(63,168,163,1);
-    box-shadow: 0px 0px 5px 0px rgba(63,168,163,1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
 }
 
 #skills .frontend img, #skills .framework img{
@@ -120,14 +122,14 @@ h1{
 }
 
 #contact{
-    background-color: #213e3b;
+    background-color: #056674;
     color: white;
 }
 
 #contact form{
     margin: 25px;
-    width: 70%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 400px;
     text-align: left;
 }
 
