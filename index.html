@@ -3,90 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Monwar Khan | Full Stack Developer</title>
+    <link rel="shortcut icon" href="./Images/mobile-development.svg" type="image/x-icon">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--My CSS-->
     <link rel="stylesheet" href="Styles/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="icon" href="Images/favicon.ico"/>
+
+    <!--Image Hover CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css" integrity="sha512-SYBBAnJsPEzSQ/kBqkR/9krJ+EUgF624c8uaMBww1Q26pnCw5k7zVmtc48BfXjZ9MRNNBveIdhx/na1xRLWgjw==" crossorigin="anonymous" />
+
 </head>
+
 <body>
-    <!-- <nav>
-        <h1>Monwar</h1>
-        <div class="navigation-items">
-            <a href="#about">About</a>
-            <a>Projects</a>
-            <a>Contact</a>
+
+    <!--Navigation-->
+    <nav style="background-color: #a3d8f4;" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand">Monwar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#About" class="nav-link active">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>        
+    </nav>
+
+    <!--Introduction Section-->
+    <section id="Introduction" style="background-color: #a3d8f4;">
+        <div class="p-5">
+            <h1>Full Stack Developer</h1>
+            <h5>I create mobile, software and web application, and I love what I do.</h5>
+        </div>        
+        <img src="Images/mountain.svg"/>
+    </section>
+
+    <!--About Section-->
+    <section id="About" class="p-5 text-dark">  
+        <img class="profile" src="https://i.kym-cdn.com/photos/images/original/001/407/027/c94.jpg" />      
+        <h2>Hello.</h2>
+        <p>I am a Full Stack Developer that is profiecient in a variety of languages and platforms.</p>
+
+        <!--Development Experience-->
+        <div class="container-fluid py-5">
+            <div class="row">
+
+                <!--Web development experience-->
+                <div class="col-lg-4">
+                    <div class="card p-5 my-2">
+                        <div class="card-title">
+                            <img src="Images/web-development.svg" />
+                            <h5>Web Development</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        
+                            <h6>Languages:</h6>
+                            <p>HTML5, CSS3, JavaScript, NodeJS, C#, SQL, MongoDB</p>
+      
+                            <h6>Dev Tools:</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">Visual Studio Community 2019</li>
+                                <li class="list-group-item">VSCode</li>
+                                <li class="list-group-item">ASP.NET</li>
+                                <li class="list-group-item">React</li>
+                                <li class="list-group-item">Redux</li>
+                                <li class="list-group-item">Bootstrap</li>
+                                <li class="list-group-item">Github</li>
+                                <li class="list-group-item">Azure Devops</li>
+                                <li class="list-group-item">Terminal</li>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div>
+
+                <!--Mobile development experience-->
+                <div class="col-lg-4">
+                    <div class="card p-5 my-2">
+                        <div class="card-title">
+                            <img src="Images/mobile-development.svg" />
+                            <h5>Mobile Development</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            
+                            <h6>Languages:</h6>
+                            <p>XAML, C#, SQLite</p>
+      
+                            <h6>Dev Tools:</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">Visual Studio Community 2019</li>
+                                <li class="list-group-item">VSCode</li>
+                                <li class="list-group-item">Xamarin Forms</li>
+                                <li class="list-group-item">React Native</li>
+                                <li class="list-group-item">Material Design</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+
+                <!--Software development experience-->
+                <div class="col-lg-4">
+                    <div class="card p-5 my-2">
+                        <div class="card-title">
+                            <img src="Images/software.svg" />
+                            <h5>Software Development</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            
+                            <h6>Languages:</h6>
+                            <p>XAML, C#, SQL</p>
+      
+                            <h6>Dev Tools:</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">Visual Studio Community 2019</li>
+                                <li class="list-group-item">Material Design</li>
+                                <li class="list-group-item">WPF</li>
+                                <li class="list-group-item">Windows Forms</li>
+                                <li class="list-group-item">Microsoft SQL</li>
+                            </ul>
+                        </div>
+                    </div>    
+                </div>
+            </div>
         </div>
-    </nav> -->
-    <main>
-        <section id="introduction">
-            <article>                
-                <h1>I'm Monwar</h1>
-                <p>[DESCRIPTION]</p>
-            </article>                       
-            <img src="Images/mountain.svg"/>
-        </section>     
+    </section>
 
-        <hr>
+    <hr>
 
-        <section id="profile">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/500px-Circle_-_black_simple.svg.png">
-            <article>
-                <h1>Hello.</h1>
-                <p>I am an Software and Web Developer.</p>                
-            </article>            
-        </section>        
-
-        <hr>
-
-        <section id="skills">
-            <article>
-                <h2>SKILLS</h2>
-                <div class="frontend">
-                    <img src="Images/web-development.svg"/>
-                    <h3>Front end</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id massa vitae est fermentum accumsan sed ut augue. Aenean a nisi placerat justo volutpat placerat. Aenean mollis pulvinar libero at eleifend. Morbi hendrerit lectus et leo vestibulum placerat. Pellentesque pretium elit a faucibus elementum. Aenean porttitor venenatis enim sit amet fringilla. Nunc eget elit sit amet urna bibendum iaculis a a tellus. In imperdiet ante magna, tempus consectetur erat posuere sed.</p>
+    <!--Project Section-->
+    <section id="Projects">
+        <div class="container-fluid w-75 mw-800">
+            <h2>Projects</h2>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 p-5">
+                    <figure class="imghvr-fade">
+                        <img src="https://cdn.vox-cdn.com/thumbor/HIluJzxPz3qH66lFxxHKVl10UzQ=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/60211577/acastro_180403_1777_youtube_0001.0.jpg"/>
+                        <figcaption>
+                            <h6>Movie Database</h6>
+                            <p></p>
+                            <button onclick="location.href = 'https://safe-caverns-65032.herokuapp.com/'" class="btn btn-danger">Visit Website</button>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="backend">
-                    <img src="Images/software.svg"/>
-                    <h3>Back end</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id massa vitae est fermentum accumsan sed ut augue. Aenean a nisi placerat justo volutpat placerat. Aenean mollis pulvinar libero at eleifend. Morbi hendrerit lectus et leo vestibulum placerat. Pellentesque pretium elit a faucibus elementum. Aenean porttitor venenatis enim sit amet fringilla. Nunc eget elit sit amet urna bibendum iaculis a a tellus. In imperdiet ante magna, tempus consectetur erat posuere sed.</p>                    
+                <div class="col-lg-6 col-sm-12 p-5">
+                    <figure class="imghvr-fade">
+                        <img src="https://cdn.vox-cdn.com/thumbor/HIluJzxPz3qH66lFxxHKVl10UzQ=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/60211577/acastro_180403_1777_youtube_0001.0.jpg"/>
+                        <figcaption>
+                            <h6>FoodSwipe</h6>
+                            <p></p>
+                            <button onclick="location.href = 'https://safe-caverns-65032.herokuapp.com/'" class="btn btn-danger">Visit Website</button>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="framework">
-                    <img src="Images/framework.svg"/>
-                    <h3>Framework</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id massa vitae est fermentum accumsan sed ut augue. Aenean a nisi placerat justo volutpat placerat. Aenean mollis pulvinar libero at eleifend. Morbi hendrerit lectus et leo vestibulum placerat. Pellentesque pretium elit a faucibus elementum. Aenean porttitor venenatis enim sit amet fringilla. Nunc eget elit sit amet urna bibendum iaculis a a tellus. In imperdiet ante magna, tempus consectetur erat posuere sed.</p>                  
+                <div class="col-lg-6 col-sm-12 p-5">
+                    <figure class="imghvr-fade">
+                        <img src="https://cdn.vox-cdn.com/thumbor/HIluJzxPz3qH66lFxxHKVl10UzQ=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/60211577/acastro_180403_1777_youtube_0001.0.jpg"/>
+                        <figcaption>
+                            <h6>Weather API</h6>
+                            <p></p>
+                            <button onclick="location.href = 'https://guarded-harbor-68616.herokuapp.com/'" class="btn btn-danger">Visit Website</button>
+                        </figcaption>
+                    </figure>
                 </div>
-            </article>
-        </section>
+            </div>
+        </div>        
+    </section>
 
-        <hr>
+    <hr>
 
-        <section id="projects">
-            <article>
-                <h1>PROJECTS</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id massa vitae est fermentum accumsan sed ut augue. Aenean a nisi placerat justo volutpat placerat. Aenean mollis pulvinar libero at eleifend. Morbi hendrerit lectus et leo vestibulum placerat. Pellentesque pretium elit a faucibus elementum. Aenean porttitor venenatis enim sit amet fringilla. Nunc eget elit sit amet urna bibendum iaculis a a tellus. In imperdiet ante magna, tempus consectetur erat posuere sed. Fusce in elit vitae ligula fermentum luctus. Proin et finibus metus, in lobortis libero.</p>                
-            </article>
-        </section>
-
-        <hr>
-
-        <section id="contact">
-            <h1>Contact</h1>
-            <form method="POST" data-netlify="true">
-                <label for="Name">Your name:</label><br>
-                <input type="text" name="Name" placeholder="Name"/>
-                <br>
-                <br>
-                <label for="Email">Your email:</label><br>
-                <input type="email" name="Email" placeholder="Email"/>
-                <br>
-                <br>
-                <label for="Message">Your message:</label><br>
-                <textarea name="Message" placeholder="Your Message" cols="80" rows="4"></textarea>
-                <br>
-                <input type="submit" value="Send"/>
-            </form>
-        </section>
-    </main>    
+    <!--Contact section-->
+    <section class="p-5 bg-warning" id="Contact">
+        <h2>Contact me</h2>
+        <form class="w-75 mx-auto bg-warning mw-600 text-left">
+            <label>Name:</label>
+            <input class="form-control" type="text" />
+            <label>Email:</label>
+            <input class="form-control" type="email" />
+            <label>Message:</label>
+            <textarea class="form-control" rows="10"></textarea>
+            <button class="btn btn-dark w-100 my-3">Send</button>
+        </form>
+    </section>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </html>
