@@ -1,0 +1,59 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+hr{
+    margin: 5rem auto;
+    width: 8rem;
+    border-style: dotted;
+    border-width: 1.2rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+/* Containers */
+section{
+    text-align: center;
+}
+
+#About{
+    background-color: #4db3ea;
+}
+
+.profile{
+    border: 5px solid #24a2e5;
+    border-radius: 50%;
+}
+
+/* Text */
+#About h5, #About h6{
+    padding: 0.8rem 0;
+    font-weight: bolder;
+}
+
+#About p{
+    padding-bottom: 1.2rem;
+}
+
+/* Width */
+.mw-600{
+    max-width: 600px;
+}
+
+.mw-800{
+    max-width: 800px;
+}
+
+/* Images */
+#Introduction img{
+    width: 40%;
+}
+
+#About img{
+    width: 150px;
+    height: 150px;    
+}
+
+
