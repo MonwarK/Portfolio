@@ -182,13 +182,13 @@
     <!--Contact section-->
     <section class="p-5 bg-warning" id="Contact">
         <h2>Contact me</h2>
-        <form class="w-75 mx-auto bg-warning mw-600 text-left">
+        <form name="contact" method="POST" data-netlify="true" class="w-75 mx-auto bg-warning mw-600 text-left">
             <label>Name:</label>
-            <input class="form-control" type="text" />
+            <input name="Name" class="form-control" type="text" />
             <label>Email:</label>
-            <input class="form-control" type="email" />
+            <input name="Email" class="form-control" type="email" />
             <label>Message:</label>
-            <textarea class="form-control" rows="10"></textarea>
+            <textarea name="Message" class="form-control" rows="10"></textarea>
             <button class="btn btn-dark w-100 my-3">Send</button>
         </form>
     </section>
